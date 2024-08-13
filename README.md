@@ -72,11 +72,15 @@ Now we're going to setup remote desktop for non-administrative users. To do this
 <img src="https://i.imgur.com/cHLPcfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The final part of this project involves a plugin which creates many users and allows me to log back into Client-1 and make sure that I set everything up correctly. I will simply showcase the product of that here:
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/bNPvevW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/JMslpw6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
