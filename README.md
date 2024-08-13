@@ -54,6 +54,15 @@ After this, in the _ADMINS folder we just created, we will create an admin user,
 </p>
 <img src="https://i.imgur.com/emT0PQ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<p>
+After this, log back into DC-1 as "mydomain.com\ciadmin", or whatever you chose to name it as.
+</p>
+
+<p>
+Now, in order to join "Client-1" to "DC-1," go into the Azure Portal and set Client-1's DNS settings to the DC's Private IP Address, then restart it. After that, login to Client-1 as the original local admin and join it to the domain, after the computer has restarted, this is what it should say:
+</p>
+<img src="https://i.imgur.com/zefTLVJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
