@@ -23,13 +23,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Using Microsoft Azure, create two virtual machines. Create a Domain Controller VM (in this case, I made one named "DC-1"), and take note of the Vnet created. 
 - Set the Domain Controller's NIC Private IP address to be static
 - Create a Client VM (in this case, the one I made is named "Client-1"), use the same resource group and Vnet that was created with the domain controller.
+<img src="https://i.imgur.com/rEmcPp5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Install Active Directory
+- Create an Admin and Normal User Account in AD
+- Join Client-1 to Domain
+- Setup Remote Desktop for non-administrative users on Client-1
+- Create a bunch of additional users and attempt to log into client-1 with one the new users
 
 <h2>Deployment and Configuration Steps</h2>
 
