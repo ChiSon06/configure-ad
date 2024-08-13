@@ -36,19 +36,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/80aGWjJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Above is the first step once in the DC-1 Domain Controller. After successfully logging in, its now time to deploy the domain. For this instance, I made the domain with the name "mydomain.com". After going through the config wizard for that, restart and log back in under "mydomain.com/(whatever name was created for the DC-1 originally)".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will now create two different Organizational Units: _EMPLOYESS and _ADMINS. These will be used to seperate employees within the company based on admin status or employee status.
 </p>
+<img src="https://i.imgur.com/Qu9z0KB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+After this, in the _ADMINS folder we just created, we will create an admin user, in this case, I named mine "christian ison," or "ciadmin."
+</p>
+<img src="https://i.imgur.com/emT0PQ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <p>
