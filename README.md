@@ -65,9 +65,18 @@ Now, in order to join "Client-1" to "DC-1," go into the Azure Portal and set Cli
 
 
 <p>
+</p>
+<p>
+Now we're going to setup remote desktop for non-administrative users. To do this, we need to login to Clinet-1 as mydomain.com\ciadmin(or whatever you chose), and go into system properties and remote desktop. From there, allow "domain users" to access remote desktop. This is shown below:
+</p>
+<img src="https://i.imgur.com/cHLPcfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
