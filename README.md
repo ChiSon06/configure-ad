@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This project outlines how to install and configure active directory. The install itself will utilize virtual machines, specifically a client and domain controller. The domain controller is where the active directory will be installed, and after the download two different accounts are made, a user and an admin. After that, the client is joined to the domain, and we then setup remote desktop for non-administrative users on it. The final process involves using a random additional user and logging into the client with said user.<br />
 
 
 <h2>Environments and Technologies Used</h2>
